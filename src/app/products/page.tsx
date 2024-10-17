@@ -1,13 +1,18 @@
+"use client";
+import Link from "next/link";
 import React from "react";
 
 function Products() {
   return (
     <div>
       Products List
+      <Link href="/">Home</Link>
       <ol>
-        <li>Product1</li>
-        <li>Product2</li>
-        <li>Product3</li>
+        <Link href="/products/1">Product1</Link>
+        <Link href="/products/2" replace>
+          Product2
+        </Link>
+        <Link href="/products/3">Product3</Link>
       </ol>
     </div>
   );

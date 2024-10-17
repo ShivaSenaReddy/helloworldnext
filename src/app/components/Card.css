@@ -1,0 +1,7 @@
+.Card {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: whitesmoke;
+  flex-grow: 1;
+}
+

@@ -1,0 +1,7 @@
+.complexDashboard {
+  display: flex;
+}
+.complexDashboard div {
+  display: flex;
+  flex-direction: column;
+}
